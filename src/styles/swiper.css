@@ -1,0 +1,27 @@
+.slide-next-btn {
+  position: absolute;
+  top: 50%;
+  left: 0.5rem;
+  z-index: 10;
+  color: white;
+}
+.slide-prev-btn {
+  position: absolute;
+  top: 50%;
+  right: 0.5rem;
+  z-index: 10;
+  color: white;
+}
+
+.swiper-button-disabled {
+  opacity: 0.5;
+}
+
+.swiper-pagination-bullet {
+  background-color: white !important;
+  opacity: 0.5 !important;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  opacity: 1 !important;
+}
